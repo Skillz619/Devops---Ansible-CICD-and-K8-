@@ -1,11 +1,15 @@
 # Devops- Ansible CICD Automation and K8 Deployment
 
 ===============================Jenkins Installation==================================
-[https://www.jenkins.io/doc/book/installing/linux/](https://www.jenkins.io/doc/book/installing/linux/
+https://www.jenkins.io/doc/book/installing/linux/
+
 https://www.jenkins.io/doc/tutorials/tutorial-for-installing-jenkins-on-AWS/
+
 $ sudo yum update –y
+
 sudo wget -O /etc/yum.repos.d/jenkins.repo \
     https://pkg.jenkins.io/redhat-stable/jenkins.repo
+    
 $ sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
 $ sudo yum upgrade
 $ amazon-linux-extras install epel
