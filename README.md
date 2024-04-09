@@ -1,5 +1,7 @@
+# Devops- Ansible CICD Automation and K8 Deployment
+
 ===============================Jenkins Installation==================================
-https://www.jenkins.io/doc/book/installing/linux/
+[https://www.jenkins.io/doc/book/installing/linux/](https://www.jenkins.io/doc/book/installing/linux/
 https://www.jenkins.io/doc/tutorials/tutorial-for-installing-jenkins-on-AWS/
 $ sudo yum update –y
 sudo wget -O /etc/yum.repos.d/jenkins.repo \
@@ -78,7 +80,9 @@ $ sudo nano /etc/ansible/hosts
 [ansible]
 local-host-ip
 $ ssh-copy-id local-host-ip
-$ nano regapp.yml
+$ nano regapp.yml)
+
+
 ---
 - hosts: ansible
 
